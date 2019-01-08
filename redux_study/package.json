@@ -1,0 +1,39 @@
+{
+  "name": "react_base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf build public/bundle.js",
+    "build": "babel server --out-dir build && ./node_modules/.bin/webpack",
+    "start": "NODE_ENV=prod  node ./build/main.js",
+    "dev": "NODE_ENV=dev node ./build/main.js",
+    "stop": "pkill node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "css-loader": "^1.0.0",
+    "react": "^16.4.1",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.1.1",
+    "redux-actions": "^2.6.4",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "style-loader": "^0.21.0",
+    "body-parser": "^1.18.3",
+    "immutable": "^3.8.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^1.15.0",
+    "react-hot-loader": "^4.3.3",
+    "webpack-dev-server": "^1.16.5"
+  }
+}

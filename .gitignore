@@ -1,0 +1,17 @@
+*.out
+*.pyc
+homeIoT/build/
+homeIoT/node_modules/
+homeIoT/src/components/ConstValue.js
+homeIoT/public/bundle.js
+homeIoT/public/torrent/*
+react_base/node_modules/
+cli/build/
+cli/node_modules/
+cli/public/bundle.js
+cli/uploads
+.idea/*
+redux_study/node_modules/
+redux_study/build/
+react_native/testProject/node_modules/
+slackbot_test/node_modules/

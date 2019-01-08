@@ -1,0 +1,12 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "dependencies": {
+    "@slack/client":"latest",
+    "googleapis":"latest",
+    "google-auth-library":"latest",
+    "co":"latest"
+  }
+  }

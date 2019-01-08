@@ -1,0 +1,140 @@
+*{
+	padding : 0;
+	margin : 0;
+	border : 0;
+}
+
+body{
+	background-color: #FFFFFF;
+	font-size:14px;
+	width : 100%;
+	height: 100%;
+	overflow: hidden
+	
+}
+
+.top{
+	
+	height : 50px;
+	width : 100%;
+	
+}
+
+.contents{
+	
+	width : 100%;
+	
+
+}
+
+[data-notify="container"] {
+	
+	width:300px;
+}
+
+.modal-lg{
+	width:1300px;
+}
+
+
+.top nav{
+    background-color: #4f5764;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-text{
+
+    color:#ffffff;
+}
+
+.user_info{
+
+   
+    width:100px;
+   
+}
+
+
+.map_area{
+    width:65%;
+    height:100%;
+	float:left;
+    background:gray
+}
+
+.info_area{
+	width:35%;
+	float:right;
+	height: 100%;
+
+	
+	padding:10px;
+}
+
+.no-border{
+	border:0px;
+	background-color: #ffffff;
+}
+
+.info_context{
+	display: none;
+}
+.info_context_level{
+	margin:0 auto;
+
+	width:90%;
+}
+
+#level2{
+
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+.swingDiv{
+	overflow:hidden;
+	height:200px;
+}
+.inner_two{
+	width:100%;
+}
+.inner_one{
+	width:100%;
+	display: inline-block;
+	float:right;
+	padding-left:5px;
+}
+
+.handle-left {
+    float:left;
+    font-weight: bold;
+	margin-top:-100px;
+    cursor:pointer;
+}
+
+.handle-right {
+    float:right;
+	margin-top:-100px;
+	
+    font-weight: bold;
+    cursor:pointer;
+
+}
+
+.inner_table{	
+	padding-left:20px;
+	display: inline-block;
+	
+}
+th, td {
+	text-align: center;
+	font-size:13px;
+}
+
+.charts{
+	height:250px;
+
+}
+
+.btn-fixed{
+	width:100%;
+}

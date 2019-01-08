@@ -1,0 +1,50 @@
+{
+    "author": "lhj321@naver.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "coin_watch_face",
+    "pebble": {
+        "displayName": "COIN_WATCH_FACE",
+        "enableMultiJS": false,
+        "messageKeys": [
+            "COINBTC",
+            "COINETH",
+            "POLOETH",
+            "POLOBTC",
+            "BTCKP",
+            "ETHKP",
+            "DT",
+            "BITBTC",
+            "BITETH",
+            "ALM",
+            "COINBCH",
+            "STAKE"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/warning (2).png",
+                    "name": "ALM_DANGER",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Bluetooth-icon.png",
+                    "name": "BT_CONN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "diorite"
+        ],
+        "uuid": "033bf830-feb6-4c59-b2e5-e45443ae1bcc",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}

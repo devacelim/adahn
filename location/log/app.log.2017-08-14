@@ -1,0 +1,3 @@
+[2017-08-14 11:02:54] INFO [django:15] middleware call!
+[2017-08-14 11:02:55] INFO [django:15] middleware call!
+[2017-08-14 11:02:55] WARNING [django.request:170] Not Found: /favicon.ico
